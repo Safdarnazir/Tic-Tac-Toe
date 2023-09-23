@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game{
+    /* margin: 50px; */
+    display: block;
+    margin: auto;
+    width: 192px;
+    margin-top: 50px;
+}
+.game:hover{
+    cursor: pointer;
+}
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9{
+    padding: 2px;
+    margin-left: -4px;
+    text-align: center;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+/* #a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover,#a7:hover,#a8:hover,#a9:hover{
+    cursor: pointer;
+} */
+#a1{
+    border-top: none;
+    border-left: none;
+}
+#a2{
+    border-top: none;
+}
+#a3{
+    border-top: none;
+    border-right: none;
+}
+#a4{
+    border-left: none;
+}
+
+#a6{
+    border-right: none;
+}
+#a7{
+    border-bottom: none;
+    border-left: none;
+}
+#a8{
+    border-bottom: none;
+}
+#a9{
+    border-bottom: none;
+    border-right: none;
+}
+#a1:focus{
+   background-color: grey;
+}
+.btn{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 70px;
+    margin-top: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#win{
+    text-align: center;
+    margin: 40px;
+}
+.red_x{
+    color: red;
+}
